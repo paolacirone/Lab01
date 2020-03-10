@@ -69,6 +69,7 @@ public class FXMLController {
 	@FXML
 	void doReset(ActionEvent event) {
 
+		lista.clear();
 		elenco.reset();
 		txtResult.clear();
 
